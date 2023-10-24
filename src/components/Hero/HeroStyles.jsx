@@ -16,6 +16,6 @@ export const HeroText = styled.div`
   right: 0;
 
   @media (max-width: 480px) {
-    top: 35%;
+    top: 40%;
   }
 `;

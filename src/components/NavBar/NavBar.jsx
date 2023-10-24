@@ -1,5 +1,4 @@
 import Container from "react-bootstrap/Container";
-
 import Navbar from "react-bootstrap/Navbar";
 import logo from "./../../assets/images/img-tea-cozy-logo.webp";
 import { NavStyles, Logo, NavLinks, NavLink } from "./NavBarStyles";
@@ -12,7 +11,10 @@ const NavBar = () => {
           <Navbar.Brand href="#home">
             <Logo src={logo} alt="logo" />
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle
+            aria-controls="basic-navbar-nav"
+            style={{ background: "white" }}
+          />
           <Navbar.Collapse id="basic-navbar-nav">
             <NavLinks className="ms-auto">
               <NavLink href="#home">Mission</NavLink>

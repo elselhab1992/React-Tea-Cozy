@@ -28,6 +28,9 @@ export const NavLink = styled.nav`
   }
 
   @media (max-width: 769px) {
-    color: black;
+    color: #fff;
+    background-color: #000;
+    margin-top: 30px;
+    text-decoration: none;
   }
 `;
